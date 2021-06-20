@@ -1,0 +1,8 @@
+body{
+    background: rgb(227, 233, 178);
+}
+#headline{
+    color:rgb(19, 160, 160);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
