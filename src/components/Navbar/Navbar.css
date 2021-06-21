@@ -1,0 +1,42 @@
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    background: rgb(195, 179, 241);
+    padding: 0.5%;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+.nav-container > img {
+    max-height:40px;
+    max-width: 70px;
+    object-fit: scale-down;
+    border-radius: 6px;
+    margin-right: 2%;
+}
+
+a{
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    border-radius: 6px;
+    text-align: center;
+    padding: 0.85% 0;
+    margin-right:16% ;
+    
+}
+a:hover {
+ color: rgb(36, 15, 110);   
+}
+
+@media only screen and (min-width: 0px) and (max-width: 540px) {
+    .nav-container {
+      width: 155%;
+    }
+  }
+
+
