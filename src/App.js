@@ -10,9 +10,13 @@ function App() {
   const [universeList, setuniverseList] = useState([]);
   const [starsList, setStarsList] = useState([]);
   useEffect(() => {
-    getStars().then((data) => setStarsList(data));
-    getUniverses().then((data) => setuniverseList(data));
-  },[]);
+    getStars()
+      .then((data) => setStarsList(data))
+      .catch((err) => console.log(err));
+    getUniverses()
+      .then((data) => setuniverseList(data))
+      .catch((err) => console.log(err));
+  }, []);
   return (
     <>
       <BrowserRouter>
@@ -21,11 +25,15 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route
             path="/Universes"
-            render={() => <Universes stars={starsList} universeDetails={universeList} />}
+            render={() => (
+              <Universes stars={starsList} universeDetails={universeList} />
+            )}
           />
           <Route
             path="/Stars"
-            render={() => <Stars starDetails={starsList} universes={universeList} />}
+            render={() => (
+              <Stars starDetails={starsList} universes={universeList} />
+            )}
           />
           <Route path="/Imprint" component={Imprint} />
         </Switch>
