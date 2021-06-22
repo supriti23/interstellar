@@ -1,4 +1,4 @@
-# Task 2
+# Task 3
 
 A single page application built using React Router and NavLink which helps to navigate to different pages.
 It also highlights the current page.
@@ -6,6 +6,10 @@ It also highlights the current page.
 ## Available Scripts
 
 In the project directory, you can run:
+
+### Prerequisite
+
+Json server is running at 1234 port.
 
 ### `npm install`
 
