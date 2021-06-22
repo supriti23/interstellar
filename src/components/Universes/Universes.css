@@ -1,5 +1,9 @@
+.universeContainer{
+    display: flex;
+    flex-direction: columns;
+}
 .universe{
-    margin-top: 20vh;
+    margin-top: 10vh;
     margin-left:10vh;
     border-collapse: collapse;
     width: 70%;
@@ -11,10 +15,24 @@
     text-align: center;
     padding: 1%;
     background: rgb(204, 201, 201);
+    font-size: small;
+    font-weight: bold;
+}
+
+.universe a {
+    margin-right: 0%;
 }
 
 .header{
     height: 60px;
     min-width: 50px;
     background: rgb(109, 101, 184);
+}
+.info{
+    margin-top: 10vh;
+    margin-left:10vh;
+    border-collapse: collapse;
+    width: 70%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }

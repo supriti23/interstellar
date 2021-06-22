@@ -1,0 +1,36 @@
+ .formContainer{
+    margin-left : 10vh;
+    margin-top: 15vh;
+    display: table;
+}
+ .formContainer , input {
+    margin-left: 10vh;
+    margin-top: 2%;
+    display: table-row;
+    padding: 8% 0;
+    text-align: center;
+} 
+.formContainer , label {
+    display: table-cell;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.add{
+    padding-left: 10vh;
+    display: table-cell;
+}  
+
+.create{
+    background:rgb(109, 101, 184);
+    padding: 1% 0;
+    width: 30%;
+    border-radius: 5px;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    font-weight: bold;
+    display: table-row;
+
+}

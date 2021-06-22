@@ -1,0 +1,10 @@
+.deleteButton {
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+  padding: 9%;
+}
+.deleteButton:hover {
+  background: rgb(162, 162, 228);
+  cursor: pointer;
+}

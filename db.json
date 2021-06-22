@@ -26,7 +26,7 @@
       "universeId": 335
     },
     {
-      "color": "BLACK",
+      "color": "black",
       "id": 323,
       "name": "323 is my black star",
       "universeId": 335
@@ -42,6 +42,11 @@
       "id": 335,
       "maxSize": 2,
       "name": "Small universe"
+    },
+    {
+      "id": 336,
+      "maxSize": 2,
+      "name": "Small universe2"
     }
   ]
 }
