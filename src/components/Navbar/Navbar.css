@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     background: rgb(195, 179, 241);
-    padding: 0.5%;
+    padding: 0.5% 1%;
     align-items: center;
     position: absolute;
     top: 0;

@@ -1,39 +1,47 @@
-{       "colors": ["RED", "BLUE", "GREEN", "YELLOW", "BLACK"],
-        "stars": [
-            {
-            "color": "RED",
-            "id": 123,
-            "name": "My happy star 123",
-            "universeId": 333
-            }, {
-            "color": "YELLOW",
-            "id": 321,
-            "name": "321 is myy happy star",
-            "universeId": 333
-            },
-            {
-            "color": "GREEN",
-            "id": 322,
-            "name": "322 is my green star",
-            "universeId": 335
-            },
-            {
-            "color": "BLACK",
-            "id": 323,
-            "name": "323 is my black star",
-            "universeId": 335
-            }
-        ],
-        "universes": [
-            {
-              "id": 333,
-              "maxSize": 3,
-              "name": "Big universe"
-            },
-            {
-              "id": 335,
-              "maxSize": 2,
-              "name": "Small universe"
-            }
-        ]
+{
+  "colors": [
+    "RED",
+    "BLUE",
+    "GREEN",
+    "YELLOW",
+    "BLACK"
+  ],
+  "stars": [
+    {
+      "color": "RED",
+      "id": 123,
+      "name": "My happy star 123",
+      "universeId": 333
+    },
+    {
+      "color": "YELLOW",
+      "id": 321,
+      "name": "321 is myy happy star",
+      "universeId": 333
+    },
+    {
+      "color": "GREEN",
+      "id": 322,
+      "name": "322 is my green star",
+      "universeId": 335
+    },
+    {
+      "color": "BLACK",
+      "id": 323,
+      "name": "323 is my black star",
+      "universeId": 335
+    }
+  ],
+  "universes": [
+    {
+      "id": 333,
+      "maxSize": 3,
+      "name": "Big universe"
+    },
+    {
+      "id": 335,
+      "maxSize": 2,
+      "name": "Small universe"
+    }
+  ]
 }
